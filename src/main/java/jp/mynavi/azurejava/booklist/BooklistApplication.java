@@ -1,0 +1,14 @@
+package jp.mynavi.azurejava.booklist;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BooklistApplication {
+
+	public static void main(String[] args) {
+		// ベースアプリケーションの起動
+		SpringApplication.run(BooklistApplication.class, args);
+	}
+
+}
