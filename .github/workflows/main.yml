@@ -29,9 +29,8 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    # Deploy to Azure WebApp using webapp-deploy
-    - name: 'Deploy to Azure WebApp'
-      uses: azure/webapps-deploy@v2
-      with: 
-        app-name: 'booklist-mynaviazurejava'
-        package: '${{ github.workspace }}/target/*.jar'
+    # Maven deploy, make sure you have correct configurations in your pom.xml
+    - name: deploy to Azure App Service using Maven
+      run: |
+        mvn azure-webapp:deploy
+
