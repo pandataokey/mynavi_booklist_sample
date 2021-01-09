@@ -61,7 +61,7 @@
         <configuration>
           <schemaVersion>V2</schemaVersion>
           <resourceGroup>cloudnative</resourceGroup>
-          <appName>booklist-mynaviazurejava2</appName>
+          <appName>booklist-mynaviazurejava</appName>
           <pricingTier>B1</pricingTier>
           <region>japaneast</region>
           <runtime>
