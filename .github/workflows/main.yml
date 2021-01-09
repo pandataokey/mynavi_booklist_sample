@@ -33,5 +33,5 @@ jobs:
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v2
       with: 
-        app-name: 'booklist-mynaviazurejava'
+        app-name: 'booklist-mynaviazurejava2'
         package: '${{ github.workspace }}/target/*.jar'
